@@ -3,13 +3,19 @@ using UnityEngine.SceneManagement;
 
 public class endTrigger : MonoBehaviour
 {
-    public GameManager gameManager;
+    public GameObject levelCompletePanel;
+    public GameObject player;
+    public GameObject Maze;
 
-    void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
-            FindObjectOfType<GameManager>().EndGame();
+            Time.timeScale = 0f;
+            levelCompletePanel.SetActive(true);
+            player.SetActive(false);
+            Maze.SetActive(false);
+
         }
 
     }
