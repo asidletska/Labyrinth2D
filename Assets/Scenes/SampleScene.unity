@@ -985,6 +985,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.x
       value: -722
       objectReference: {fileID: 0}
+    - target: {fileID: 4267538054539220597, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 4409063183617213077, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
       propertyPath: m_LocalPosition.z
       value: -8600
@@ -993,6 +997,10 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 519420031}
+    - target: {fileID: 6287733747090867748, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 903d05d44a13201408f3f7b51607d9d0, type: 3}
     - target: {fileID: 6876619843842981646, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
       propertyPath: m_IsActive
       value: 0
