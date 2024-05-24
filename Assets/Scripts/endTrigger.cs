@@ -1,11 +1,10 @@
 using UnityEngine;
-using UnityEngine.SceneManagement;
 
 public class endTrigger : MonoBehaviour
 {
     public GameObject levelCompletePanel;
     public GameObject player;
-    public GameObject Maze;
+    public GameObject Maze;    
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -15,6 +14,7 @@ public class endTrigger : MonoBehaviour
             levelCompletePanel.SetActive(true);
             player.SetActive(false);
             Maze.SetActive(false);
+
 
         }
 

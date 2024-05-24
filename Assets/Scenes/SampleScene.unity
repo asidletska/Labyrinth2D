@@ -224,6 +224,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (Legacy)
       objectReference: {fileID: 0}
+    - target: {fileID: 8686000226364068338, guid: e717f5c40c324264ea914ea547d09072, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -320,7 +324,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.32, y: 4.51, z: -10}
+  m_LocalPosition: {x: 3.32, y: 4.51, z: -4.34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1097,7 +1101,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4409063183617213077, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -8600
+      value: -8657
       objectReference: {fileID: 0}
     - target: {fileID: 5333830698067949567, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
       propertyPath: m_Camera
@@ -1144,7 +1148,7 @@ PrefabInstance:
     - {fileID: 4818998873519040904, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 982843556306933565, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
-      insertIndex: -1
+      insertIndex: 1
       addedObject: {fileID: 350394952}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d8150be6b9025743aa9a50c9ffb31c2, type: 3}
